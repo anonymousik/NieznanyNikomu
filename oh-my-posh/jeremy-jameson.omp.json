@@ -1,0 +1,91 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "root",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#21222C",
+          "background": "#f4fd8f"
+        },
+        {
+          "type": "session",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#3b3b3b",
+          "background": "#dddddd",
+          "properties": {
+            "display_default": false
+          }
+        },
+        {
+          "type": "path",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#dddddd",
+          "background": "#3c78c3",
+          "properties": {
+            "folder_icon": "..",
+            "folder_separator_icon": "\uE0B1",
+            "mapped_locations": [
+              ["C:\\BackedUp", "\u2713 "],
+              ["C:\\NotBackedUp", "\u2718 "]
+            ],
+            "mixed_threshold": 6,
+            "style": "mixed"
+          }
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#3b3b3b",
+          "background": "#77c856"
+        },
+        {
+          "type": "python",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#21222C",
+          "background": "#926387",
+          "properties": {
+            "prefix": " \uE235 "
+          }
+        },
+        {
+          "type": "exit",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#fcfcfc",
+          "background": "#d73636",
+          "properties": {
+            "prefix": " \u2755"
+          }
+        }
+      ]
+    },
+    {
+      "type": "newline"
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#3c78c3",
+          "properties": {
+            "prefix": "",
+            "text": "\u276F"
+          }
+        }
+      ]
+    }
+  ],
+  "final_space": false
+}
